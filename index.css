@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Merriweather", serif;
+  font-size: 2rem;
+}
+body {
+  background: linear-gradient(to bottom right, #00818a, #216583);
+}
+h1 {
+  padding: 10px 0;
+}
+header {
+  height: 100px;
+  background: #042f4b;
+  color: white;
+  text-align: center;
+}
+#canvas {
+  background: #e9e5dd;
+  display: block;
+  margin: 100px auto;
+  border-radius: 5px;
+}
