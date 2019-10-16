@@ -13,7 +13,7 @@ var paddleHeight = 10;
 var paddleWidth = 75;
 var paddleX = (canvas.width - paddleWidth) / 2;
 
-var righPressed = false;
+var rightPressed = false;
 var leftPressed = false;
 
 var interval = setInterval(draw, 10);
@@ -60,7 +60,6 @@ function mouseMoveHandler(e) {
     paddleX = relativeX - paddleWidth / 2;
   }
 }
-I;
 
 function collisionDetection() {
   for (var c = 0; c < brickColumnCount; c++) {
